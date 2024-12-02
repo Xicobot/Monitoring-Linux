@@ -33,3 +33,9 @@ iostat <-3> <Hard Disk Device>
 iostat <-s, -x 1> <Hard Disk Device>
 ```
 ### 4. Network
+```
+tcpdump <-i> <Ethernet> <-w> <"Recording File Name">
+tcpdump <-r> <"File Name Recorded"> | grep -w <"Service name of the output">
+tcptrack <-i> <Ethernet>
+iptraf (Graphical interface)
+bmon (Another graphical interface)
