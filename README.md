@@ -4,7 +4,6 @@
 2. Memory Ram
 3. Hard Disks
 4. Network
----
 
 ### 1. Process
 ```
