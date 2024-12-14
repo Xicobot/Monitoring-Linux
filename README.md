@@ -1,13 +1,14 @@
 # Monitoring-Linux
 
-## Índice:
+## Index:
 
-1.- [Introducción](introduccion.md)
+1.- [Introduction](introduccion.md)
 
-2.-[Herramientas propias del sistema.](doc.md)
+2.-[System tools.](doc.md)
 
-3.-[Sistemas de monitorización](sistemas)
+3.-[Monitoring systems](sistemas.md)
 
-4.- Mapa conceptual
+4.- [Concept map](url)
 
 Referencias
+Class 👌
