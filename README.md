@@ -4,7 +4,7 @@
 
 1.- [Introducción](introduccion.md)
 
-2.-[Herramientas propias del sistema.](herramientas.md)
+2.-[Herramientas propias del sistema.](doc.md)
 
 3.-[Sistemas de monitorización](sistemas)
 
