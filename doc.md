@@ -14,6 +14,10 @@ top ( control + m = order by memory, control + p = order by cpu, EXIT = q )
 htop
 atop (It has his own file, /etc/default/atop)
 ```
+#### PS
+
+PS (Process system) it becomes with the system, and it can show the process of the system and process of the user.
+
 Concepts:
 In process, we need to know some concepts that maybe we can see it in the shell and dont know what it means:
 1. USER: User who started the process.
