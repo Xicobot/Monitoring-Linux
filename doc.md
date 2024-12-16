@@ -42,4 +42,4 @@ TOP: Similar to PS, but it adds a header and runs like a program, taking the she
 
 ![top1](img/top1.png)
 
-[Previews page](introduccion.md)
+[Previews page](introduccion.md) --- [Next page](sistemas.md)
