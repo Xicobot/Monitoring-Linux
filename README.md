@@ -14,5 +14,6 @@
 
 4.- [Concept map](url)
 
+5.- [Class documentation](Documentacion_Clases_Xicobot.pdf)
 Referencias:
 Class 👌
