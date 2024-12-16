@@ -14,6 +14,26 @@ top ( control + m = order by memory, control + p = order by cpu, EXIT = q )
 htop
 atop (It has his own file, /etc/default/atop)
 ```
+Concepts:
+In process, we need to know some concepts that maybe we can see it in the shell and dont know what it means:
+1. USER: User who started the process.
+2. PID: Process identification.
+3. %CPU: CPU Usage.
+4. %MEM: Memory Usage.
+5. TTY: Terminal that is running that process.
+6. STAT: Status of the process.
+   a. Sleeping (S): Currently unactive.
+   b. Running (R): Currently running.
+   c. Stopped (T): Indicates a stopped process.
+8. START: Time it has started the process.
+9. TIME: Time it has been running since started.
+
+
+
+
+ps a (It shows a page that shows all the process generated manually by the user.)
+
+
 
 ### 2. Memory Ram
 
