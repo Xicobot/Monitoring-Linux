@@ -3,7 +3,7 @@
 ## Index:
 
 
-![imagen](img/penguin.vif) 
+![imagen](img/penguin.avif) 
 
 
 1.- [Introduction](introduccion.md)
