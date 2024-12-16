@@ -32,7 +32,8 @@ In process, we need to know some concepts that maybe we can see it in the shell 
 8. START: Time it has started the process.
 9. TIME: Time it has been running since started.
 
-
+Examples:
+![ps1](img/ps1.jpg)
 
 
 ps a (It shows a page that shows all the process generated manually by the user.)
