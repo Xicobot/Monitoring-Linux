@@ -2,9 +2,9 @@
 
 ## Index:
 
-<p aling="left">
-<img src="img/penguin.vif" width="450" align="right">
-</p>
+
+![imagen](img/penguin.vif) 
+
 
 1.- [Introduction](introduccion.md)
 
