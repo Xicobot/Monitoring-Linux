@@ -17,4 +17,5 @@
 References:
 
 Chatgpt
-Most of all, in class-
+
+Class notes
