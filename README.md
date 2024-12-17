@@ -2,10 +2,6 @@
 
 ## Index:
 
-
-![imagen](img/penguin.avif) 
-
-
 1.- [Introduction](introduccion.md)
 
 2.-[System tools.](doc.md)
@@ -15,6 +11,8 @@
 4.- [Concept map](url)
 
 5.- [Class documentation](Monitorizacion_clases_Xicobot.pdf)
+
+![imagen](img/penguin.avif) 
 
 References:
 
