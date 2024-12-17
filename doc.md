@@ -104,8 +104,10 @@ df -h (Shows all the mount points in GB)
 
 ![df1](img/df.png)
 
-du 
+DU: List all the archives in the directory.
 
+![du1](img/du1.png)
 
-
+du -hs / <Directory>: List all the archives in a directory.
+ 
 [Previews page](introduccion.md) --- [Next page](sistemas.md)
