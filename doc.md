@@ -42,8 +42,6 @@ TOP: Similar to PS, but it adds a header and runs like a program, taking the she
 
 ![top1](img/top1.png)
 
-[Previews page](introduccion.md) --- [Next page](sistemas.md)
-
 Shortcuts (Graphical):
 Control + M: Order by Memory
 Control + p: Order by CPU
@@ -55,3 +53,26 @@ Also, you can use top without enter the graphical interface, by using -b, it doe
 here's an example:
 `top -b -o %CPU -n 3 | head -n 17 > 10procesos.txt`
 ![top2](img/top2.png)
+
+HTOP: Also a more virsual than the others, down the page we have the shortcuts to help us (The users) find a process to kill, or exit the page.
+
+![htop1](img/htop.png)
+
+Shortcuts:
+- F1: Help (Shows the man page to learn more)
+- F2: Setup (Edit the config file)
+- F3: Search (Search process)
+- F4: Filter (Filter by CPU, Memory...)
+- F5: Tree (Show the page like a tree)
+- F6: Sort by (Order the page)
+- F7: Nice - (Scroll down the page)
+- F8: Nice + (Scroll up the page)
+- F9: Kill (Kill the process)
+
+ATOP: Another visual way to show all the process.
+![atop](img/atop.png)
+
+
+
+
+[Previews page](introduccion.md) --- [Next page](sistemas.md)
