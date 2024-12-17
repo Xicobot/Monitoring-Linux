@@ -104,4 +104,8 @@ df -h (Shows all the mount points in GB)
 
 ![df1](img/df.png)
 
+du 
+
+
+
 [Previews page](introduccion.md) --- [Next page](sistemas.md)
