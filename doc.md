@@ -43,3 +43,15 @@ TOP: Similar to PS, but it adds a header and runs like a program, taking the she
 ![top1](img/top1.png)
 
 [Previews page](introduccion.md) --- [Next page](sistemas.md)
+
+Shortcuts (Graphical):
+Control + M: Order by Memory
+Control + p: Order by CPU
+Control + P: Order by PID (Process Identification)
+Q: Exit
+
+Also, you can use top without enter the graphical interface, by using -b, it does not syncronice automatically, it shows only a page in the exact moment you execute it.
+
+here's an example:
+`top -b -o %CPU -n 3 | head -n 17 > 10procesos.txt`
+![top2](img/top2.png)
