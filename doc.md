@@ -1,6 +1,6 @@
 # System tools (to monitorize your computer completely)
 
-## PS
+## Process system
 
 PS (Process system) it becomes with the system, and it can show the process of the system and process of the user.
 
@@ -70,7 +70,24 @@ Shortcuts:
 - F9: Kill (Kill the process)
 
 ATOP: Another visual way to show all the process.
+
 ![atop](img/atop.png)
+
+We can edit the file using `nano /etc/default/atop`
+
+![atop2](img/atop2.png)
+
+And we can restart the service with `systemctl restart atop`
+
+## Memory
+
+FREE: We can check the usage of the memory.
+
+![free1](img/free1.png)
+
+
+
+
 
 
 
