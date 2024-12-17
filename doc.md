@@ -83,8 +83,15 @@ And we can restart the service with `systemctl restart atop`
 
 FREE: We can check the usage of the memory.
 
+```
+free (Shows memory in bytes)
+free -h (Shows memory in GB)
+free -s 3 (Shows memory every 3 seconds)
+```
+
 ![free1](img/free1.png)
 
+## Hard disks
 
 
 
