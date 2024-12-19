@@ -12,6 +12,6 @@
 
 5.- [Class documentation](Monitorizacion_clases_Xicobot.pdf)
 
-6.-[references](references.md)
+6.-[References](references.md)
 
 ![imagen](img/penguin.avif) 
