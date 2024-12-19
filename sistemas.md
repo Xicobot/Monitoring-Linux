@@ -50,3 +50,5 @@ Prometheus excels in environments requiring real-time monitoring and flexible in
 
 ## Conclusion
 These monitoring tools cater to diverse needs, from basic infrastructure monitoring with Nagios to advanced visualization with Grafana, dynamic monitoring with Prometheus, and comprehensive management with Zabbix. Choose the tool that best fits your environment and requirements.
+
+[Previews page](doc.md) --- [Next page](conceptualmap.md)
