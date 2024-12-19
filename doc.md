@@ -166,7 +166,7 @@ To read the file, just use `tcpdump -r <File>`, otherwise, using cat, we will se
 ![tcpdump4](img/tcpd4.png)
 ![tcpdump5](img/tcpd5.png)
 
-We can also filtrare the outpost, with `tcpdump | grep -w "SomethingYouWannaSee"`, in this case, i have apache2 working with the name arturodeneb.org.
+We can also filtrate the outpost, with `tcpdump | grep -w "SomethingYouWannaSee"`, in this case, i have apache2 working with the name arturodeneb.org.
 
 ![tcpdump6](img/tcpd6.png)
 
@@ -178,6 +178,43 @@ It tracks all the chanels established with the ethernet conexion and the server.
 Example:
 
 ![tcpt](img/tcpt1.png)
-![tcpt2](img/tcpt2.png)
+![tcpt2](img/tcpt2.png) 
+![tcpt3](img/tcpt3.png) 
+
+IPTRAF:A graphical way to see the network from a Device.
+
+We simply have to follow those steps.
+
+First we type in the terminal `iptraf`:
+
+![iptraf](img/iptraf1.png)
+
+Second step: select IP traffic monitor.
+
+![iptraf](img/iptraf2.png)
+
+Third step: Select the Ethernet interface.
+
+![iptraf](img/iptraf3.png)
+
+Four step: Watch how many traffic you have.
+
+![iptraf](img/iptraf4.png)
+
+BMON: Another graphical program to watch the net-traffic and what the bandwidth in a graphical way too.
+
+First we have to install it:
+
+```
+apt update
+apt install bmon
+```
+![bmon](img/bmon.png)
+
+Now, just run it, and we can see the Network flow in a great visual way
+
+![bmon2](img/bmon2.png)
+
+Thank you very much for visiting this document. If you notice anything I might have missed, feel free to contact me. Thank you!
 
 [Previews page](introduccion.md) --- [Next page](sistemas.md)
