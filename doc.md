@@ -113,6 +113,7 @@ du -hs / <Directory>: List all the archives in a directory, and gives us the inf
 -hs(H is for know in GB,MB or KB are the directory, and -s to know the total and not list all the directory from inside.)
 
 Example:
+
 ![du1](img/du.png)
 
 IOSTAT:Is a command that gives us three type of stadistics, wich is about CPU, Hard disk device, and partitions.
@@ -132,12 +133,14 @@ Example:
 We can use `iostat -mh` to show all the stadistics in kb, mb or gb, and also we can use `iostat -xh <Hard disk device` to show if it's currently working, speed of download and upload and more.
 
 Examples:
+
 ![iostat3](img/iostat3.png)
 ![iostat2](img/iostat2.png)
 
 We can also select the number of columns the program shows to us with `iostat -s "Number"`.
 
-Example
+Example:
+
 ![iostat4](img/iostat4.png)
 
 # Network
@@ -151,6 +154,7 @@ If we want to only select our network trafic, we have to use `tcpdump -i <Networ
 We can see our network adapter using `ip a`, it shows the IP of our network, and also the name of the Network adapter, or "Ethernet".
 
 Examples:
+
 ![tcpdump1](img/tcpd1.png)
 ![tcpdump2](img/tcpd2.png)
 
@@ -168,8 +172,12 @@ We can also filtrare the outpost, with `tcpdump | grep -w "SomethingYouWannaSee"
 
 TCPTRACK: It shows a live outpost that are the actual open conexion established with a server, or with a service.
 
-Example:
 `tcptrack -i <Ethernet adapter>`
+It tracks all the chanels established with the ethernet conexion and the server.
+
+Example:
+
 ![tcpt](img/tcpt1.png)
 ![tcpt2](img/tcpt2.png)
+
 [Previews page](introduccion.md) --- [Next page](sistemas.md)
