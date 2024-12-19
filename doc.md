@@ -104,10 +104,72 @@ df -h (Shows all the mount points in GB)
 
 ![df1](img/df.png)
 
-DU: List all the archives in the directory.
+DU: List all the archives in the directory and gives the space.
 
 ![du1](img/du1.png)
 
-du -hs / <Directory>: List all the archives in a directory.
- 
+du -hs / <Directory>: List all the archives in a directory, and gives us the information about the space it has.
+
+-hs(H is for know in GB,MB or KB are the directory, and -s to know the total and not list all the directory from inside.)
+
+Example:
+![du1](img/du.png)
+
+IOSTAT:Is a command that gives us three type of stadistics, wich is about CPU, Hard disk device, and partitions.
+
+CPU Statistics:
+
+%user: Percentage of time the CPU spends executing processes in user space.
+%nice: Percentage of time the CPU spends executing processes with adjusted priority (nice).
+%system: Percentage of time the CPU spends executing processes in kernel space.
+%iowait: Percentage of time the CPU spends waiting for I/O operations to complete.
+%steal: Percentage of time stolen by virtual machines in a virtualized environment.
+%idle: Percentage of time the CPU is idle.
+
+Example:
+![iostat](img/iostat.png)
+
+We can use `iostat -mh` to show all the stadistics in kb, mb or gb, and also we can use `iostat -xh <Hard disk device` to show if it's currently working, speed of download and upload and more.
+
+Examples:
+![iostat3](img/iostat3.png)
+![iostat2](img/iostat2.png)
+
+We can also select the number of columns the program shows to us with `iostat -s "Number"`.
+
+Example
+![iostat4](img/iostat4.png)
+
+# Network
+
+For this, we will need the use of root privileges, because otherwise we wont get anything.
+
+TCPDUMP: It's a program, like wireshark, that shows all the trafic in our network
+
+If we want to only select our network trafic, we have to use `tcpdump -i <Network Adapter>`.
+
+We can see our network adapter using `ip a`, it shows the IP of our network, and also the name of the Network adapter, or "Ethernet".
+
+Examples:
+![tcpdump1](img/tcpd1.png)
+![tcpdump2](img/tcpd2.png)
+
+We can also redirect (like `echo "Hello world! > helloW.txt"`) with -w, but we will have some trouble at the time to read te file, because when it generates the file, the creator and group are tcpdump and not root, so we will have to change that.
+
+To read the file, just use `tcpdump -r <File>`, otherwise, using cat, we will se that is encrypted.
+
+![tcpdump3](img/tcpd3.png)
+![tcpdump4](img/tcpd4.png)
+![tcpdump5](img/tcpd5.png)
+
+We can also filtrare the outpost, with `tcpdump | grep -w "SomethingYouWannaSee"`, in this case, i have apache2 working with the name arturodeneb.org.
+
+![tcpdump6](img/tcpd6.png)
+
+TCPTRACK: It shows a live outpost that are the actual open conexion established with a server, or with a service.
+
+Example:
+`tcptrack -i <Ethernet adapter>`
+![tcpt](img/tcpt1.png)
+![tcpt2](img/tcpt2.png)
 [Previews page](introduccion.md) --- [Next page](sistemas.md)
