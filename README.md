@@ -12,10 +12,6 @@
 
 5.- [Class documentation](Monitorizacion_clases_Xicobot.pdf)
 
+6.-[references](references.md)
+
 ![imagen](img/penguin.avif) 
-
-References:
-
-Chatgpt
-
-Class notes
